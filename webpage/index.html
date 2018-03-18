@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>LSHTC: A Benchmark for Large-Scale Text Classification</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/logo-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="lshtc_logo.png" width="100" height="80" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Datasets">Datasets</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Citation">Citation</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <h1 class="mt-5" name="about">
+	  LSHTC: A Benchmark for Large-Scale Text Classification
+	</h1>
+      <p>
+     LSHTC is a series of challenges which aims to assess the performance
+of classification systems in large-scale classification in a a large number of
+classes (up to hundreds of thousands). Four editions of the LSTH challange were organized
+from 2011 to 2015.
+      </p>
+      
+      <p>
+      In this page you can download the datasets used in the various editions of the challenge. 
+      </p>
+      <p>
+      The datasets are provided in the Libsvm format where each line corresponds to an instance. For each dataset, 
+      we also provide a hierarchy file which contains parent-child relations for the categories of the dataset.
+
+      For further details, please refer to the corrsponding paper <a href="https://arxiv.org/pdf/1503.08581.pdf">LSHTC: A Benchmark for Large-Scale Text
+      Classification</a>
+      </p>
+      <h2 class="mt-5" name="Datasets">Datasets
+      </h2>
+	  <h3>
+	      LSHTC1
+	  </h3>
+	  <ul>
+	      <li>DMOZ</li>
+	      <li>Wiki</li>
+	  </ul>
+	  <h3>
+	      LSHTC2
+	  </h3>
+	  <p>
+	  All datasets in this edition are multi-label. The DMOZ dataset contains a tree hierarchy while the Wikipedia small dataset
+	  hierarchy is a DAG. Finally, the Wiki-large is a graph with cycles.
+	  <ul>
+	    <li>DMOZ: <a href="">train</a>, <a href="">test</a> and <a href="">hierarchy</a></li>
+	    <li>Wiki-small: <a href="">train</a>, <a href="">test</a> and <a href="">hierarchy</a></li>
+	    <li>Wiki-large: <a href="">train</a>, <a href="">test</a> and <a href="">hierarchy</a></li>
+	  </ul>
+	  </p>
+	  <h3>
+	      LSHTC3
+	  </h3>
+	  <p>
+	  The main addition in this edition of the challenges was the release of the raw text data for the small Wikipedia dataset.
+	  <ul>
+	      <li>Wiki-small raw: <a href="">train</a>, <a href="">test</a> and <a href="">hierarchy</a></li>
+	  </ul>
+	  </p>
+	  <h3>
+	      LSHTC4
+	  </h3>
+	  <p>
+	  The fourth edition of LSHTC run as a <a href="https://www.kaggle.com/c/lshtc">Kaggle competition</a> using the large Wikipedia dataset.
+	  </p>
+	  <a name="Citation"><h2 class="mt-5">Citation</h2></a>
+      <p>
+      Please cite the following paper if you use any of the LSHTC dataset:
+<pre>
+@article{PartalasKBAPGAA15,
+  author    = {Ioannis Partalas and
+               Aris Kosmopoulos and
+               Nicolas Baskiotis and
+               Thierry Arti{\`{e}}res and
+               George Paliouras and
+               {\&apos;{E}}ric Gaussier and
+               Ion Androutsopoulos and
+               Massih{-}Reza Amini and
+               Patrick Gallinari},
+  title     = {{LSHTC:} {A} Benchmark for Large-Scale Text Classification},
+  journal   = {CoRR},
+  volume    = {abs/1503.08581},
+  year      = {2015}
+}
+</pre>
+      </p>
+      <a name="Contact"><h2 class="mt-5">Contact</h2></a>
+      <p>
+      For further requests or questions please contact Ioannis Partalas: firstname [dot] lastname [at] gmail [dot] com
+      </p>
+    </div>
+    <!-- /.container -->
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+
+</html>
